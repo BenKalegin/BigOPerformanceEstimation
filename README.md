@@ -26,13 +26,13 @@ Usually you don't notice the performance penalty of slow algorithms because of s
 
 | Complexity         | Is it good        | N to spend 100 ms in high CPU(when slowness starts to feel) |
 | ------------------ | ----------------- | ----------------------------------------------------------- |
-| O(1)               | Good news<br><br> | \-                                                          |
-| O(log _n_)         | \-                |
-| O(_n_)             | 100M              |
+| O(1)               | Good news         |-|
+| O(log _n_)         |                   |-|                    
+| O(_n_)             |                   | 100M |
 | O(_n_ log _n_)     | Tolerated         | 5M                                                          |
 | O(_n<sup>2</sup>_) | Bad news          | 10K                                                         |
-| O(2<sup>_n_</sup>) | 27                |
-| O(_n_!)            | 11                |
+| O(2<sup>_n_</sup>) |                   | 27
+| O(_n_!)            |                   | 11
 
 
 Sometimes it is hard predict Big O theoretically because and you can make practical measurements, benchmark with different N and find BigO by approximation. 
